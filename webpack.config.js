@@ -7,8 +7,8 @@ module.exports = (env, argv) => {
 
     const rootUrl = argv.mode === 'development' ? 
                         'http://localhost:5555' : 
-                        'http://testing-assets.openfin.co.s3-website-us-east-1.amazonaws.com/adapters/interop';
-                        // should use 'https://testing-assets.openfin.co/adapters/interop' , but old version of .Net does not like https
+                        'http://testing-assets.openfin.co.s3-website-us-east-1.amazonaws.com/adapters/channel';
+                        // should use 'https://testing-assets.openfin.co/adapters/channel' , but old version of .Net does not like https
 
     return {
         entry: {

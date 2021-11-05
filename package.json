@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "build": "webpack --mode=development ",
+        "buildQA": "webpack --mode=production ",
         "start": "webpack-dev-server --mode=development",
         "buildprod": "webpack --mode=production ",
         "deploy": "aws s3 cp --recursive ./out s3://testing-assets.openfin.co/adapters/channel"
